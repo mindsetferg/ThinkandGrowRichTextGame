@@ -1,0 +1,159 @@
+# Game Intro
+def burning_desire():
+    money_made = input("How much money would you like to make? Think about the\n"
+    "total of all the things you can possibly want.:> ")
+
+    services_rendered = input("What would you give or what service\n"
+    "would you render to achieve them?:> ")
+
+    target_date = input("What date do you want to achieve this by?:> ")
+
+    desire_output = f'''
+    So your decision has been made.
+    You want to make {money_made} by {target_date}
+    and to make sure all of this happens,
+    you will give (of yourself) or render the valuable service of {services_rendered}
+    '''
+
+    return money_made, services_rendered, target_date, desire_output
+
+def faith_formula():
+    print("After you have repeated this phrase 5 times,")
+    input("press ENTER to continue:> ")
+
+seps = "*****************************\n"
+
+print("""You find yourself sitting in the middle of a room.
+You can move freely but you feel comfortable and decide to stay still.
+There is a spotlight shining down on you.
+You can tell there are other's in the room but you cannot
+see them through the darkness.""")
+print("What do you do?")
+print("1. Yell out for 'help'.")
+print("2. Ask 'Who are you?'")
+print("3. Say 'What is going on?'")
+
+first_choice = input("> ")
+
+if first_choice == "1":
+    print("""A familiar voice says 'I know you're scared. Relax.
+    I only want the best for you. Trust me.'
+    A familar face steps into the light. The face is your own,
+    yet a little wiser. The figure repeatedly blurs and get's clear again.
+    Your future self says 'We are creating your future, a successful future,\n
+    but I need your help, and we have no time to spare. Your future starts now.'
+    """)
+    print("Let's start with your BURNING DESIRE.")
+
+    money_made, target_date, services_rendered, desire_output = burning_desire()
+
+    print(desire_output)
+
+elif first_choice == "2":
+    print("""A familiar voice says 'We've always been ones to
+    get to the point. I am your future self.'
+    A familar face steps into the light. The face is your own,
+    yet a little wiser. The figure repeatedly blurs and get's clear again.
+    Your future self says 'We are creating your future, a successful future,\n
+    but I need your help, and we have no time to spare. Your future starts now.'
+    """)
+    print("Let's start with your BURNING DESIRE.")
+
+    money_made, target_date, services_rendered, desire_output = burning_desire()
+
+    print(desire_output)
+
+elif first_choice == "3":
+    print("""A familiar voice says 'We're creating your future
+    together. I am...'
+    A familar face steps into the light. The face is your own,
+    yet a little wiser. The figure repeatedly blurs and get's clear again.
+    Your future self says
+    '...your future, a successful future,\n
+    but I need your help, and we have no time to spare. Your future starts now.'
+    """)
+    print("Let's start with your BURNING DESIRE.")
+
+    money_made, target_date, services_rendered, desire_output = burning_desire()
+
+    print(desire_output)
+
+else:
+    print("""A familiar voice says 'This might seem confusing
+    at first, but you'll understand soon enough.'
+    A familar face steps into the light. The face is your own,
+    yet a little wiser. The figure repeatedly blurs and get's clear again.
+    Your future self says 'We are creating your future, a successful future,\n
+    but I need your help, and we have no time to spare. Your future starts now.'
+    """)
+    print("Let's start with your BURNING DESIRE.")
+
+    money_made, target_date, services_rendered, desire_output = burning_desire()
+
+    print(desire_output)
+
+print("""Your future self says 'wonderful.' They disappear as you begin
+to go in and out of a daze as flashes of your future flood your mind.
+After what seems like hours, you wake back up.
+Your future self steps toward you, except this time they seem a little
+different. They have a slight glow about them. Your future says
+'Let's make sure you are prepared for what is ahead, and that you have
+the FAITH in yourself to achieve everything you set out to do.
+
+I am going to give you a series of phrases which will help you
+develop the confidence to achieve your BURNING DESIRE.
+
+Repeat them 5 times each after me.""")
+
+print("""First. I know that I have the ability to achieve the object of
+my Definite Purpose in life, therefore, I DEMAND of myself persistent,
+continuous action toward its attainment, and I here and now promise to render
+such action.""")
+faith_formula()
+print(seps)
+
+print("""Second. I realize the dominating thoughts of my mind will eventually
+reproduce themselves in outward, physical action, and gradually transform
+themselves into physical reality, therefore, I will concentrate my thoughts for
+thirty minutes daily, upon the task of thinking of the person I intend to
+become, thereby creating in my mind a clear mental picture of that person.""")
+faith_formula()
+print(seps)
+
+print("""Third. I know through the principle of auto-suggestion, any desire
+that I persistently hold in my mind will eventually seek expression through
+some practical means of attaining the object back of it, therefore, I will
+devote ten minutes daily to demanding of myself the development of
+SELF-CONFIDENCE.""")
+faith_formula()
+print(seps)
+
+print("""Fourth. I have clearly written down a description of my
+DEFINITE CHIEF AIM in life, and I will never stop trying, until I shall have
+developed sufficient self-confidence for its attainment.""")
+faith_formula()
+print(seps)
+
+print("""Fifth. I fully realize that no wealth or position can long endure,
+unless built upon truth and justice, therefore, I will engage in no transaction
+which does not benefit all whom it affects. I will succeed by attracting to
+myself the forces I wish to use, and the cooperation of other people. I will
+induce others to serve me, because of my willingness to serve others. I will
+eliminate hatred, envy, jealousy, selfishness, and cynicism, by developing love
+for all humanity, because I know that a negative attitude toward others can
+never bring me success. I will cause others to believe in me, because I will
+believe in them, and in myself.""")
+faith_formula()
+print(seps)
+
+print("""I will sign my name to this formula, commit it to memory, and repeat
+it aloud once a day, with full FAITH that it will gradually influence my
+THOUGHTS and ACTIONS so that I will become a self-reliant, and successful
+person.""")
+print("Please type your name below to continue:")
+player_name = input("> ")
+
+print(f"Congratulations. )
+
+print("That is the end for now. Go forth and prosper! This game will be"
+"updated soon!")
